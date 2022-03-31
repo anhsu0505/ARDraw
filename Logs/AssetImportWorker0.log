@@ -367,3 +367,445 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1068.606727 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(d7dae447585ce48e1b90081efe3be910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(d7dae447585ce48e1b90081efe3be910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2ed5270e3e513f643617b806d0b57f') in 0.008321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088031 seconds.
+  path: Assets/Textures/Master_Sheet.psd
+  artifactKey: Guid(45fac3fad95894624b7d27aab4d3491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Master_Sheet.psd using Guid(45fac3fad95894624b7d27aab4d3491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '10d313f635cf6bd2f3bc516bb2afcab8') in 0.618506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.848290 seconds.
+  path: Assets/Textures/Asset 1.png
+  artifactKey: Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Asset 1.png using Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '8725708f495cfaec60e7a0c91ef16570') in 0.210387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.049936 seconds.
+  path: Assets/Textures/reticle New.png
+  artifactKey: Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/reticle New.png using Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:870)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '8b501c7788a12cb3569bdc773ed29232') in 0.010921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.540113 seconds.
+  path: Assets/Textures/reticle New.png
+  artifactKey: Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/reticle New.png using Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '1a219547d6129dbe1bb92f375be0e818') in 0.019692 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (441.8 KB). Loaded Objects now: 4292.
+Memory consumption went from 211.7 MB to 211.3 MB.
+Total: 9.771952 ms (FindLiveObjects: 0.348267 ms CreateObjectMapping: 0.372337 ms MarkObjects: 8.817124 ms  DeleteObjects: 0.233594 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300.803458 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(72d4d6a9c1b0046039fc1fabf2eb8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(72d4d6a9c1b0046039fc1fabf2eb8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaa532f9540cca52b4cb623cc370502') in 0.001511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.708686 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451f7bc977995393a35a71c36b137d5c') in 0.001240 seconds 
