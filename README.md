@@ -3,6 +3,8 @@ This is a repositort forked from dilmerv
 
 Used as the inspiration and reference for project 
 
+---------------------------------------------------
+
 AR Drawing demos with AR Foundation, ARCore XR Plugin, and ARKit XR Plugin.
 
 Results from various examples taught in YouTube:
