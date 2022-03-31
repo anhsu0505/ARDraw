@@ -1,0 +1,1739 @@
+Unity Editor version:    2021.2.10f1 (ee872746220e)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 10.15.7 (Build 19H1323)
+Darwin version:          19.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/angelinahsu/Thesis-Tune-In-dilmerv-fork
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63675
+Successfully changed project path to: /Users/angelinahsu/Thesis-Tune-In-dilmerv-fork
+/Users/angelinahsu/Thesis-Tune-In-dilmerv-fork
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 60.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.10f1 (ee872746220e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/angelinahsu/Thesis-Tune-In-dilmerv-fork/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+iMac preferred device: AMD Radeon Pro 5700 (high power)
+Metal devices available: 1
+0: AMD Radeon Pro 5700 (high power)
+Using device AMD Radeon Pro 5700 (high power)
+Initializing Metal device caps: AMD Radeon Pro 5700
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56585
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.10f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002376 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 43.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (479ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002894 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 44.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.257 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1258ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (250ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 4265.
+Memory consumption went from 281.2 MB to 280.5 MB.
+Total: 3.647653 ms (FindLiveObjects: 0.250050 ms CreateObjectMapping: 0.194096 ms MarkObjects: 2.904112 ms  DeleteObjects: 0.298624 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138555.861600 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(060975be71b7a4887bd48391e16a6fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(060975be71b7a4887bd48391e16a6fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8d1131322f4fbdb041e77f47ef69db') in 0.228377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.125409 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(488c2a153e9d9415088601a6bcea714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(488c2a153e9d9415088601a6bcea714f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f062fafaf49d897ec6124358d84f72ef') in 0.000606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.951664 seconds.
+  path: Assets/Scenes/ARDraw.unity
+  artifactKey: Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ARDraw.unity using Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e39799fb075e87ce30281d50cba5e5') in 0.000838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.255552 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a10257afe1644e4f8322be766c8921c') in 0.000778 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 4265.
+Memory consumption went from 196.2 MB to 195.5 MB.
+Total: 9.180907 ms (FindLiveObjects: 0.509854 ms CreateObjectMapping: 0.484811 ms MarkObjects: 7.173146 ms  DeleteObjects: 1.011032 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 4265.
+Memory consumption went from 196.2 MB to 195.5 MB.
+Total: 4.182503 ms (FindLiveObjects: 0.306730 ms CreateObjectMapping: 0.347532 ms MarkObjects: 3.137372 ms  DeleteObjects: 0.390342 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002105 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1057ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (0.7 MB). Loaded Objects now: 4268.
+Memory consumption went from 271.6 MB to 270.9 MB.
+Total: 3.701057 ms (FindLiveObjects: 0.276626 ms CreateObjectMapping: 0.306869 ms MarkObjects: 2.832396 ms  DeleteObjects: 0.284610 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 4268.
+Memory consumption went from 198.3 MB to 197.5 MB.
+Total: 3.714004 ms (FindLiveObjects: 0.260094 ms CreateObjectMapping: 0.226900 ms MarkObjects: 2.899955 ms  DeleteObjects: 0.326460 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (0.7 MB). Loaded Objects now: 4268.
+Memory consumption went from 198.3 MB to 197.5 MB.
+Total: 3.554971 ms (FindLiveObjects: 0.233077 ms CreateObjectMapping: 0.213277 ms MarkObjects: 2.818503 ms  DeleteObjects: 0.289614 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (464.4 KB). Loaded Objects now: 4268.
+Memory consumption went from 197.8 MB to 197.3 MB.
+Total: 3.580562 ms (FindLiveObjects: 0.223598 ms CreateObjectMapping: 0.377745 ms MarkObjects: 2.725287 ms  DeleteObjects: 0.253474 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  graphicsApiMask: 2048 -> 2099200
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/active-color-space: 02000000000000000000000000000000 -> 03000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (442.2 KB). Loaded Objects now: 4269.
+Memory consumption went from 197.8 MB to 197.4 MB.
+Total: 4.255897 ms (FindLiveObjects: 0.255939 ms CreateObjectMapping: 0.223383 ms MarkObjects: 3.475584 ms  DeleteObjects: 0.300404 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1068.606727 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(d7dae447585ce48e1b90081efe3be910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(d7dae447585ce48e1b90081efe3be910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2ed5270e3e513f643617b806d0b57f') in 0.008321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088031 seconds.
+  path: Assets/Textures/Master_Sheet.psd
+  artifactKey: Guid(45fac3fad95894624b7d27aab4d3491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Master_Sheet.psd using Guid(45fac3fad95894624b7d27aab4d3491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:122)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '10d313f635cf6bd2f3bc516bb2afcab8') in 0.618506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.848290 seconds.
+  path: Assets/Textures/Asset 1.png
+  artifactKey: Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Asset 1.png using Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '8725708f495cfaec60e7a0c91ef16570') in 0.210387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.049936 seconds.
+  path: Assets/Textures/reticle New.png
+  artifactKey: Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/reticle New.png using Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:GetTemporary_Internal (UnityEngine.RenderTextureDescriptor)
+UnityEngine.RenderTexture:GetTemporary (UnityEngine.RenderTextureDescriptor) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:405)
+UnityEngine.RenderTexture:GetTemporaryImpl (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat,int,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage,bool) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:421)
+UnityEngine.RenderTexture:GetTemporary (int,int,int,UnityEngine.Experimental.Rendering.GraphicsFormat) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.cs:457)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:870)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '8b501c7788a12cb3569bdc773ed29232') in 0.010921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.540113 seconds.
+  path: Assets/Textures/reticle New.png
+  artifactKey: Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/reticle New.png using Guid(c83c0e49c4cf74f74adeba3597038047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.Graphics:Blit (UnityEngine.Texture,UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Graphics.cs:798)
+UnityEditor.TextureInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/TextureInspector.cs:877)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+Requested RenderTexture with sRGB format. sRGB formats are not supported in gamma mode, fallback to a UNorm format. Use a UNorm format instead of sRGB to silence this warning.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.RenderTexture:set_active (UnityEngine.RenderTexture) (at /Users/bokken/buildslave/unity/build/Runtime/Export/Graphics/Texture.bindings.cs:736)
+UnityEditor.SpriteInspector:BuildPreviewTexture (UnityEngine.Sprite,UnityEngine.Material,bool) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:128)
+UnityEditor.SpriteInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/Inspector/SpriteFrameInspector.cs:246)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:38)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /Users/bokken/buildslave/unity/build/Editor/Mono/AssetPreviewUpdater.cs:9)
+
+[./Runtime/Graphics/RenderTexture.cpp line 1064]
+
+ -> (artifact id: '1a219547d6129dbe1bb92f375be0e818') in 0.019692 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (441.8 KB). Loaded Objects now: 4292.
+Memory consumption went from 211.7 MB to 211.3 MB.
+Total: 9.771952 ms (FindLiveObjects: 0.348267 ms CreateObjectMapping: 0.372337 ms MarkObjects: 8.817124 ms  DeleteObjects: 0.233594 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 300.803458 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(72d4d6a9c1b0046039fc1fabf2eb8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(72d4d6a9c1b0046039fc1fabf2eb8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaa532f9540cca52b4cb623cc370502') in 0.001511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.708686 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(166cdd821278c4fa5a99b736eb913126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451f7bc977995393a35a71c36b137d5c') in 0.001240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4898.578806 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aed7bb1d03ca5650d48772c3d9bd62d') in 0.002119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 391.109126 seconds.
+  path: Assets/Scripts/Button UI.cs
+  artifactKey: Guid(894703490cf2e4eb6a51486c6d313952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Button UI.cs using Guid(894703490cf2e4eb6a51486c6d313952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6643e0dab614e7e551dfa7e0cde1cd6e') in 0.237825 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (1008ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3679 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (463.8 KB). Loaded Objects now: 4348.
+Memory consumption went from 294.5 MB to 294.1 MB.
+Total: 3.989870 ms (FindLiveObjects: 0.272303 ms CreateObjectMapping: 0.358290 ms MarkObjects: 3.083982 ms  DeleteObjects: 0.274729 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.260894 seconds.
+  path: Assets/Scripts/Button UI.cs
+  artifactKey: Guid(894703490cf2e4eb6a51486c6d313952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Button UI.cs using Guid(894703490cf2e4eb6a51486c6d313952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d37419b97f4c20672313e64d6e9a301') in 0.007325 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (463.9 KB). Loaded Objects now: 4351.
+Memory consumption went from 294.8 MB to 294.4 MB.
+Total: 3.756414 ms (FindLiveObjects: 0.246268 ms CreateObjectMapping: 0.251293 ms MarkObjects: 3.001473 ms  DeleteObjects: 0.256882 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001854 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (431ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (463.7 KB). Loaded Objects now: 4353.
+Memory consumption went from 295.1 MB to 294.6 MB.
+Total: 3.778832 ms (FindLiveObjects: 0.263164 ms CreateObjectMapping: 0.217100 ms MarkObjects: 3.065018 ms  DeleteObjects: 0.232986 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152.926523 seconds.
+  path: Assets/Scripts/Core
+  artifactKey: Guid(603f5d2ba9595497e934d401dedd02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core using Guid(603f5d2ba9595497e934d401dedd02d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba27a3f157ce63dc9096c0461d10f705') in 0.005931 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001855 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (448.2 KB). Loaded Objects now: 4357.
+Memory consumption went from 295.3 MB to 294.9 MB.
+Total: 3.463096 ms (FindLiveObjects: 0.245634 ms CreateObjectMapping: 0.211452 ms MarkObjects: 2.733310 ms  DeleteObjects: 0.271671 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002270 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (463.9 KB). Loaded Objects now: 4359.
+Memory consumption went from 295.6 MB to 295.2 MB.
+Total: 3.491595 ms (FindLiveObjects: 0.253863 ms CreateObjectMapping: 0.222624 ms MarkObjects: 2.746852 ms  DeleteObjects: 0.267746 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.704471 seconds.
+  path: Assets/Scripts/Managers
+  artifactKey: Guid(e2f66afbfec77468c9f90b320fac4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers using Guid(e2f66afbfec77468c9f90b320fac4b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f7d2593313437534e154079c1080fe') in 0.004710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.402536 seconds.
+  path: Assets/Scripts/Managers/ARDrawManager.cs
+  artifactKey: Guid(65d46aa9308b64408ba0512e966c99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/ARDrawManager.cs using Guid(65d46aa9308b64408ba0512e966c99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af828d76ad5328fa683131f3eb62e589') in 0.001049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.440371 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(6c36f7b1631cd4603b20a04a3cde345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(6c36f7b1631cd4603b20a04a3cde345b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde2cfe181fa16b38e3232c641a91890') in 0.000590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.840188 seconds.
+  path: Assets/NewBehaviourScript.cs
+  artifactKey: Guid(164ec842710c3421492577eb2ca211e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBehaviourScript.cs using Guid(164ec842710c3421492577eb2ca211e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f122c80a5cf30babb43f024b42f23a4') in 0.001256 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1065ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (464.1 KB). Loaded Objects now: 4363.
+Memory consumption went from 295.9 MB to 295.5 MB.
+Total: 3.817313 ms (FindLiveObjects: 0.243068 ms CreateObjectMapping: 0.250797 ms MarkObjects: 2.958583 ms  DeleteObjects: 0.364235 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.459563 seconds.
+  path: Assets/Button.cs
+  artifactKey: Guid(164ec842710c3421492577eb2ca211e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button.cs using Guid(164ec842710c3421492577eb2ca211e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15ed6e23dc10621bbfbf7e17acb2220') in 0.005927 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (463.6 KB). Loaded Objects now: 4366.
+Memory consumption went from 296.2 MB to 295.8 MB.
+Total: 4.033923 ms (FindLiveObjects: 0.264938 ms CreateObjectMapping: 0.300560 ms MarkObjects: 3.213907 ms  DeleteObjects: 0.253798 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.942092 seconds.
+  path: Assets/Scripts/Managers/ARDebugManager.cs
+  artifactKey: Guid(de30141600d554a458123784cbe436d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/ARDebugManager.cs using Guid(de30141600d554a458123784cbe436d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762cc3366d023240272fb42be5b94c6d') in 0.005586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.631860 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.001040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.436427 seconds.
+  path: Assets/Scripts/Managers/ARLine.cs
+  artifactKey: Guid(c4dd61582c97b460baca77daefc38fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/ARLine.cs using Guid(c4dd61582c97b460baca77daefc38fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d338266d2e05feb93dcb2d629e206d') in 0.001083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.900621 seconds.
+  path: Assets/Scripts/Managers/ARUIManager.cs
+  artifactKey: Guid(ba367f6f1c3594b59bcca8db2051cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/ARUIManager.cs using Guid(ba367f6f1c3594b59bcca8db2051cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbc928375722c5904d59730b98e4327') in 0.001084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.071454 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(72d4d6a9c1b0046039fc1fabf2eb8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(72d4d6a9c1b0046039fc1fabf2eb8926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a37de7e759e913a3302d0effd114c38') in 0.008955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.496593 seconds.
+  path: Assets/LineSettings/LineSettings.asset
+  artifactKey: Guid(5ed25bc620945424487035b5188eac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LineSettings/LineSettings.asset using Guid(5ed25bc620945424487035b5188eac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0457ca8d87d99849dd1f6950f5289b47') in 0.006934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.553593 seconds.
+  path: Assets/Scripts/Managers/ARExperienceManager.cs
+  artifactKey: Guid(185a8c1939e6544c2b2426e6285ef015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Managers/ARExperienceManager.cs using Guid(185a8c1939e6544c2b2426e6285ef015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f761314cb06e5c834c5b858a107dde2b') in 0.001292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.764504 seconds.
+  path: Assets/Scripts/Core/Singleton.cs
+  artifactKey: Guid(6bd56134c00764a66bd1bc1ea78b5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/Singleton.cs using Guid(6bd56134c00764a66bd1bc1ea78b5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b156a7cf31a42608b61219bf9cdb5bdb') in 0.002049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.394450 seconds.
+  path: Assets/Scripts/Core/UI
+  artifactKey: Guid(a00e6a8d2a7f64fb6945ddce37f9650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/UI using Guid(a00e6a8d2a7f64fb6945ddce37f9650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d641eb2d07d5f7b8dc60e3b3964937a') in 0.001010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.758817 seconds.
+  path: Assets/Scripts/Core/UI/UIPane.cs
+  artifactKey: Guid(41e4e020988a344dea77c568d86238ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/UI/UIPane.cs using Guid(41e4e020988a344dea77c568d86238ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7102519e8fbd8b37e92631949a284993') in 0.001627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.568951 seconds.
+  path: Assets/Scripts/Core/UI/UIPaneManager.cs
+  artifactKey: Guid(2b5559a74f47c42b989a2b073bb299b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/UI/UIPaneManager.cs using Guid(2b5559a74f47c42b989a2b073bb299b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c1a018f229df1f9a44b79d1583311') in 0.001409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.500039 seconds.
+  path: Assets/Scripts/Settings
+  artifactKey: Guid(3519c0ffd18fa46e3816ce62fcee7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings using Guid(3519c0ffd18fa46e3816ce62fcee7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f61933f4b9f16ee970282fc7a47bf4f') in 0.001028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.850230 seconds.
+  path: Assets/Scripts/Settings/LineSettings.cs
+  artifactKey: Guid(1131f67916ff64a90a275342369903b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Settings/LineSettings.cs using Guid(1131f67916ff64a90a275342369903b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655ab67fc08d59284e2dd1daaab88e3a') in 0.001145 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (418ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (463.7 KB). Loaded Objects now: 4369.
+Memory consumption went from 296.5 MB to 296.0 MB.
+Total: 3.866775 ms (FindLiveObjects: 0.275381 ms CreateObjectMapping: 0.519269 ms MarkObjects: 2.812370 ms  DeleteObjects: 0.259288 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1049ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (448.2 KB). Loaded Objects now: 4371.
+Memory consumption went from 296.7 MB to 296.3 MB.
+Total: 3.298744 ms (FindLiveObjects: 0.256639 ms CreateObjectMapping: 0.198284 ms MarkObjects: 2.618651 ms  DeleteObjects: 0.224602 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.426731 seconds.
+  path: Assets/Button UI.cs
+  artifactKey: Guid(1df8a3bea2a27499fb19282335680283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button UI.cs using Guid(1df8a3bea2a27499fb19282335680283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa1206dbe9f28444fa2bac029e46382') in 0.005645 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1069ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (448.0 KB). Loaded Objects now: 4375.
+Memory consumption went from 297.0 MB to 296.6 MB.
+Total: 3.688643 ms (FindLiveObjects: 0.256496 ms CreateObjectMapping: 0.219433 ms MarkObjects: 2.901792 ms  DeleteObjects: 0.310389 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.258790 seconds.
+  path: Assets/Button UI.cs
+  artifactKey: Guid(1df8a3bea2a27499fb19282335680283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Button UI.cs using Guid(1df8a3bea2a27499fb19282335680283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1899ee6c1f10ac2e3c409ed4fd03bb9') in 0.005468 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1055ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (425ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (456.0 KB). Loaded Objects now: 4378.
+Memory consumption went from 297.3 MB to 296.9 MB.
+Total: 3.256276 ms (FindLiveObjects: 0.244119 ms CreateObjectMapping: 0.197894 ms MarkObjects: 2.582974 ms  DeleteObjects: 0.230708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002488 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (463.8 KB). Loaded Objects now: 4381.
+Memory consumption went from 297.7 MB to 297.2 MB.
+Total: 3.701795 ms (FindLiveObjects: 0.263030 ms CreateObjectMapping: 0.361799 ms MarkObjects: 2.808475 ms  DeleteObjects: 0.267890 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.054 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (840ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (417ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (463.6 KB). Loaded Objects now: 4384.
+Memory consumption went from 297.9 MB to 297.5 MB.
+Total: 3.723634 ms (FindLiveObjects: 0.277306 ms CreateObjectMapping: 0.248066 ms MarkObjects: 2.944386 ms  DeleteObjects: 0.253267 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1065ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(0) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3677 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (463.7 KB). Loaded Objects now: 4386.
+Memory consumption went from 298.2 MB to 297.7 MB.
+Total: 4.123094 ms (FindLiveObjects: 0.272196 ms CreateObjectMapping: 0.238243 ms MarkObjects: 3.299305 ms  DeleteObjects: 0.312771 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

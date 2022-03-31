@@ -826,6 +826,7 @@ GameObject:
   - component: {fileID: 1405077183}
   - component: {fileID: 1405077185}
   - component: {fileID: 1405077187}
+  - component: {fileID: 1405077188}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -869,7 +870,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405077180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65d46aa9308b64408ba0512e966c99f2, type: 3}
   m_Name: 
@@ -1012,6 +1013,24 @@ MonoBehaviour:
   debugAreaText: {fileID: 1223412312}
   enableDebug: 1
   maxLines: 20
+--- !u!114 &1405077188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405077180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85f8946871054a7f8367454c8b8e04d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lineSettings: {fileID: 11400000, guid: 5ed25bc620945424487035b5188eac51, type: 2}
+  OnDraw:
+    m_PersistentCalls:
+      m_Calls: []
+  anchorManager: {fileID: 1405077184}
+  arCamera: {fileID: 1438120338}
 --- !u!1 &1438120337
 GameObject:
   m_ObjectHideFlags: 0
