@@ -1,7 +1,9 @@
 # ARDraw
-This is a repositort forked from dilmerv
+This is a repository forked from dilmerv
 
-Used as the inspiration and reference for project 
+ARDraw was used as the inspiration and reference for school project 
+
+I have added features for recording sounds to draw with the AR
 
 ---------------------------------------------------
 
