@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MicrophoneRW/Demo.unity
+    guid: 66d3fbd39ef480c48a4f080d3c6cabdc
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 166cdd821278c4fa5a99b736eb913126
   m_configObjects:
